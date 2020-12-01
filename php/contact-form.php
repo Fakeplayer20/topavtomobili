@@ -4,7 +4,7 @@ if(isset($_POST["action"])) {
   $email = $_POST['email'];     // Sender's email address
   $phone  = $_POST['phone'];     // Sender's email address
   $message = $_POST['message'];    // Sender's message  
-  $headers = 'From: Avtomedvode spletna stran <topavtomobili@topavtomobili.si>' . "\r\n";    
+  $headers = 'From: Top avtomobili spletna stran <topavtomobili@topavtomobili.si>' . "\r\n";    
     
   $to = 'sandi@topavtomobili.si';     // Recipient's email address
   $subject = 'Sporočilo s spletne strani';
